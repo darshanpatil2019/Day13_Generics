@@ -11,6 +11,7 @@ public class FindMaximum {
         }
 
     }
+
     //UC2-Find Maximum Value of 3 Floats
     public static Float maxFloat(Float a, Float b, Float c) {
 
@@ -23,8 +24,9 @@ public class FindMaximum {
         }
 
     }
+
     public static void main(String[] args) {
         System.out.println("Maximum of 3 integers is : " + maxInteger(40, 60, 100));
-        System.out.println("Maximum of 3 floats is : " + maxFloat(40.00f,60.00f,100.00f));
+        System.out.println("Maximum of 3 floats is : " + maxFloat(40.00f, 60.00f, 100.00f));
     }
 }

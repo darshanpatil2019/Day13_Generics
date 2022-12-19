@@ -7,16 +7,15 @@ public class TestMaximum {
     public void maximumNumberInteger() {
         FindMaximum maxNum = new FindMaximum();
         Integer maxNumInteger = maxNum.maxInteger(40, 60, 100);
-        Assert.assertEquals(100.00, 100, maxNumInteger.intValue());
+        Assert.assertEquals(100, 100, maxNumInteger.intValue());
     }
     //UC-2 Test max.Value of 3 Floats
 
-@Test
-    public void maximumNumberFloat(){
+    @Test
+    public void maximumNumberFloat() {
         FindMaximum findMaximum = new FindMaximum();
-        Float maxNumFloat = findMaximum.maxFloat(40.00f,60.00f,100.00f);
-        Assert.assertEquals(100.00f, 100.00f,maxNumFloat.floatValue());
-
-}
+        Float maxNumFloat = findMaximum.maxFloat(40.00f, 60.00f, 100.00f);
+        Assert.assertEquals(100.00f, 100.00f, maxNumFloat.floatValue());
+    }
 }
 
