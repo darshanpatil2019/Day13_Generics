@@ -23,6 +23,19 @@ public class FindMaximum {
         }
 
     }
+
+    // UC3- finding maximum value of 3 strings
+    public static String maxString(String s1, String s2, String s3) {
+
+        if (s1.compareTo(s2) > 0) {
+            return s1;
+        } else if (s3.compareTo(s2) > 0) {
+            return s3;
+        } else {
+            return s2;
+        }
+
+    }
     public static void main(String[] args) {
         System.out.println("Maximum of 3 integers is : " + maxInteger(40, 60, 100));
         System.out.println("Maximum of 3 floats is : " + maxFloat(40.00f,60.00f,100.00f));
